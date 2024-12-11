@@ -7,7 +7,7 @@ namespace Alghaz.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-
+//use log
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
